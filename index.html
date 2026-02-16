@@ -6,85 +6,148 @@
 <style>
 body{
     margin:0;
-    font-family:Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     background:#0f172a;
     color:white;
+    line-height:1.6;
 }
 
 /* Header */
 header{
     text-align:center;
-    padding:40px;
+    padding:50px 20px;
     background:#020617;
 }
 
 header img{
     width:150px;
     border-radius:50%;
-    border:3px solid #38bdf8;
     margin-bottom:15px;
 }
 
-header h1{
-    margin:10px 0;
-    font-size:40px;
+h1{margin:0;}
+h2{
+    border-bottom:2px solid #38bdf8;
+    display:inline-block;
+    padding-bottom:5px;
 }
 
-header p{
-    color:#94a3b8;
-}
-
-/* Sections */
 section{
-    padding:40px;
     max-width:900px;
     margin:auto;
+    padding:40px 20px;
 }
 
-/* Project Cards */
+/* Project cards */
 .project{
-    background:#1e293b;
-    padding:15px;
-    margin:10px 0;
-    border-radius:10px;
-    transition:0.3s;
+    background:#020617;
+    padding:20px;
+    border-radius:12px;
+    margin:20px 0;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
 }
 
-.project:hover{
-    transform:scale(1.03);
-    background:#334155;
+/* Skills */
+.skills span{
+    background:#38bdf8;
+    color:black;
+    padding:6px 12px;
+    border-radius:20px;
+    margin:5px;
+    display:inline-block;
+    font-weight:bold;
 }
 
-/* Contact */
-.contact{
+/* Footer */
+footer{
     text-align:center;
+    padding:20px;
+    background:#020617;
 }
+a{color:#38bdf8;text-decoration:none;}
 </style>
 </head>
 
 <body>
 
 <header>
-<img src="Souvagya Pic.jpeg" alt="Profile Photo">
-
+<img src="Souvagya Pic.jpeg">
 <h1>Souvagya Karmakar</h1>
 <p>Computer Science Student | Python • C • Java Developer</p>
 </header>
 
 <section>
-<h2>🚀 Projects</h2>
+<h2>About Me</h2>
+<p>
+I am a Computer Science student passionate about software development,
+embedded systems, and AI-based applications. I enjoy building practical
+projects like underwater monitoring drones, smart automation systems,
+and intelligent traffic control solutions. My primary languages are
+Python, C, and Java, and I continuously work on improving my problem
+solving and development skills.
+</p>
+</section>
 
-<div class="project">Underwater Monitoring Drone</div>
-<div class="project">Smart Attendance System</div>
-<div class="project">AI Traffic Signal Control</div>
-<div class="project">Automatic Fire Extinguisher Car</div>
+<section>
+<h2>Projects</h2>
+
+<div class="project">
+<h3>Underwater Monitoring Drone</h3>
+<p>
+A hardware–software integrated underwater drone designed for monitoring
+aquatic environments. The system uses sensors, embedded controllers,
+and software processing to capture environmental data and improve
+remote underwater observation.
+</p>
+<p><b>Tech:</b> Embedded Systems, Sensors, Python, Microcontrollers</p>
+</div>
+
+<div class="project">
+<h3>Smart Attendance System</h3>
+<p>
+An automated attendance management solution aimed at reducing manual
+errors using intelligent detection techniques. Designed to improve
+efficiency in classrooms or workplaces through automated tracking.
+</p>
+<p><b>Tech:</b> Python, AI Concepts, Automation</p>
+</div>
+
+<div class="project">
+<h3>AI Traffic Signal Control</h3>
+<p>
+An AI-based traffic signal optimization system that adjusts signal timing
+based on traffic density. Helps reduce congestion and improve traffic
+flow efficiency using intelligent decision-making techniques.
+</p>
+<p><b>Tech:</b> Python, AI Logic, Simulation</p>
+</div>
 
 </section>
 
-<section class="contact">
-<h2>📩 Contact</h2>
-<p>Email: souvagyakarmakar0712@gmail.com</p>
+<section>
+<h2>Skills</h2>
+<div class="skills">
+<span>Python</span>
+<span>C</span>
+<span>Java</span>
+<span>Data Structures</span>
+<span>AI Basics</span>
+<span>Embedded Systems</span>
+<span>Problem Solving</span>
+</div>
 </section>
+
+<section>
+<h2>Contact</h2>
+<p>Email: <a href="mailto:souvagyakarmakar0712@gmail.com">
+souvagyakarmakar0712@gmail.com</a></p>
+<p>GitHub: <a href="https://github.com/souvagya06">
+github.com/souvagya06</a></p>
+</section>
+
+<footer>
+<p>© 2026 Souvagya Karmakar</p>
+</footer>
 
 </body>
 </html>
